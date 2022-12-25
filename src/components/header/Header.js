@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import CV from '../../assets/CV_MD Murtaza Samim Choudhury.pdf';
+import CV from '../../assets/CV-MD Murtaza Samim Choudhury_New.pdf';
 import meImg from '../../assets/me_header.png';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -14,7 +14,8 @@ export default function Header() {
         <h4 className='text-light'>Fullstack Developer</h4>
 
         <div className='action-btns'>
-          <a href={CV} download className='btn'>Download CV</a>
+          <a href={CV} download className='btn btn-primary'>Download CV</a>
+          <a href="https://drive.google.com/file/d/1NohAv44renSBf093OmDv67OHFfutsV77/view?usp=share_link" target='_blank' rel='noreferrer' className='btn'>View CV</a>
           <a href='#contact' className='btn btn-primary'>Talk to Me</a>
         </div>
 
