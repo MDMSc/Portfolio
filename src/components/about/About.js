@@ -28,7 +28,7 @@ export default function About() {
             <article className="about__card">
               <Inventory2OutlinedIcon className="about__icon" />
               <h4>Projects</h4>
-              <small>Coming Up Soon...!!</small>
+              <small>2</small>
             </article>
           </div>
 
