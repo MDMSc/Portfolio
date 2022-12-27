@@ -15,7 +15,7 @@ export default function Header() {
 
         <div className='action-btns'>
           <a href={CV} download className='btn btn-primary'>Download CV</a>
-          <a href="https://drive.google.com/file/d/1NohAv44renSBf093OmDv67OHFfutsV77/view?usp=share_link" target='_blank' rel='noreferrer' className='btn'>View CV</a>
+          <a href="https://drive.google.com/file/d/17jY1h0g3X2NdvU_GnS2GNaRODoB4Dqhx/view?usp=share_link" target='_blank' rel='noreferrer' className='btn'>View CV</a>
           <a href='#contact' className='btn btn-primary'>Talk to Me</a>
         </div>
 
