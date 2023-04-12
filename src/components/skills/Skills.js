@@ -47,6 +47,13 @@ export default function Skills() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="skills__details">
+              <VerifiedIcon className="skills__details-icon" />
+              <div>
+                <h4>React Router</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -77,6 +84,13 @@ export default function Skills() {
             <article className="skills__details">
               <VerifiedIcon className="skills__details-icon" />
               <div>
+                <h4>Mongoose ODM</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+            <article className="skills__details">
+              <VerifiedIcon className="skills__details-icon" />
+              <div>
                 <h4>MySQL</h4>
                 <small className="text-light">Intermediate</small>
               </div>
@@ -88,13 +102,13 @@ export default function Skills() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            <article className="skills__details">
+            {/* <article className="skills__details">
               <VerifiedIcon className="skills__details-icon" />
               <div>
                 <h4>PHP</h4>
                 <small className="text-light">Beginner</small>
               </div>
-            </article>
+            </article> */}
             <article className="skills__details">
               <VerifiedIcon className="skills__details-icon" />
               <div>

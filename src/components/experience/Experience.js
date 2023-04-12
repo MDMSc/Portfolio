@@ -74,13 +74,13 @@ export default function Experience() {
             <article className="experience__details">
               <PlayArrowIcon className="experience__details-icon" />
               <div>
-                <p>Next GEN ERP - S/4 HANA Development (Electronics)</p>
+                <p>Next GEN ERP - S/4 HANA Development (Electronics & Hardware)</p>
               </div>
             </article>
             <article className="experience__details">
               <PlayArrowIcon className="experience__details-icon" />
               <div>
-                <p>S/4 Implementation Project - S/4 HANA Development (Retail)</p>
+                <p>S/4 Implementation Project - S/4 HANA Development (FMCG)</p>
               </div>
             </article>
             </div>

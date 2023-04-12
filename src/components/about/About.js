@@ -22,24 +22,30 @@ export default function About() {
             <article className="about__card">
               <WorkspacePremiumIcon className="about__icon" />
               <h4>Experience</h4>
-              <small>2.5+ Years</small>
+              <small>2 years 10 months</small>
             </article>
 
             <article className="about__card">
               <Inventory2OutlinedIcon className="about__icon" />
               <h4>Projects</h4>
-              <small>2</small>
+              <small>3</small>
             </article>
           </div>
 
           <p>
-            I am currently following my interest to become a Full-stack Web
-            Developer. I am trained in MERN Stack and getting the required
-            experience in it by developing projects. Previously, I worked as
-            Application Development Analyst at Accenture Solutions Pvt. Ltd.,
-            trained and specialized in SAP ABAP Development on S/4 HANA, with
-            total experience of 2.5+ years in Software Development on ERP
-            Transformation.
+            Aspiring Fullstack Web Developer, specialising in MERN stack and
+            Javascript libraries. I have hands-on coding experience of 6 months
+            in the same tech stack. Having a total of 2 years 10 months of
+            professional experience in SAP ABAP Development on HANA with
+            Accenture in a wide range of industry domains, namely Oil & Energy,
+            Pharma, FMCG, etc. I designed, built, and configured applications to
+            meet business process and application requirements. Worked on 10+
+            RICEF objects with full ownership and 15+ objects with shared
+            ownership ranging from simple to complex to high-priority levels and
+            carried out various stages of the Software Development Lifecycle. I
+            have also been involved in preparing Technical and Unit-Testing
+            Documentation, Debugging, etc. Looking for a career switch to
+            Fullstack or Frontend roles, mostly in MERN stack.
           </p>
 
           <a href="#contact" className="btn btn-primary">
