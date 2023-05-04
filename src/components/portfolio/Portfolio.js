@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/inv_pic.webp";
 import IMG2 from "../../assets/url_shortener.png";
 import IMG3 from "../../assets/messaging apps.jpeg";
+import IMG4 from "../../assets/sm-clone.jpeg";
 
 const data = [
   {
@@ -12,7 +13,7 @@ const data = [
     github_fe: "https://github.com/MDMSc/inventory-management-tool-frontend",
     github_be: "https://github.com/MDMSc/inventory-management-tool-backend",
     demo: "https://inv-management-tool.netlify.app/",
-    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Reactstrap-Bootstrap", "Chart.js", "Formik", "Yup"]
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Reactstrap-Bootstrap", "Chart.js", "Formik", "Yup", "JWT"]
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const data = [
     github_fe: "https://github.com/MDMSc/urlshortener_frontend",
     github_be: "https://github.com/MDMSc/urlshortener_backend",
     demo: "https://urlshrinker.netlify.app/",
-    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Reactstrap-Bootstrap", "Formik", "Yup", "NodeMailer"]
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Reactstrap-Bootstrap", "Formik", "Yup", "NodeMailer", "JWT"]
   },
   {
     id: 3,
@@ -30,7 +31,16 @@ const data = [
     github_fe: "https://github.com/MDMSc/chatter-box-frontend",
     github_be: "https://github.com/MDMSc/chatter-box-backend",
     demo: "https://chatter-box-messenger.netlify.app/",
-    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose ODM", "Socket.io", "Chakra UI", "Formik", "Yup", "Lottie-react", "NodeMailer"]
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose ODM", "Socket.io", "Chakra UI", "Formik", "Yup", "Lottie-react", "NodeMailer", "JWT"]
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Social Media Clone",
+    github_fe: "https://github.com/MDMSc/social_media_clone-frontend",
+    github_be: "https://github.com/MDMSc/social_media_clone-backend",
+    demo: "https://sm-clone.netlify.app/",
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose ODM", "Material UI", "Formik", "Yup", "React Redux", "Redux Persist", "React Dropzone", "JWT"]
   },
 ];
 
@@ -43,7 +53,7 @@ export default function Portfolio() {
         {data.map(({ id, image, title, github_fe, github_be, demo, skills }) => (
           <article key={id} className="portfolio__item">
             <div className="portfolio__item-image">
-              <img src={image} alt={title} />
+              <img src={image} alt={title} style={{ objectFit: "cover", height: "13rem" }} />
             </div>
             <h3>{title}</h3>
             <h5><small className="text-light">Tech stack used: </small>

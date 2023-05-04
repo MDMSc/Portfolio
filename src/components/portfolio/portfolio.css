@@ -10,7 +10,6 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 30vw
 }
 
 .portfolio__item:hover{
@@ -46,6 +45,13 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+    .portfolio__item{
+        width: 100%;
+    }
+    .portfolio__item-actions{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
   
 /* ---SMALL--- */
@@ -53,5 +59,10 @@
     .portfolio__container{
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .portfolio__item-actions{
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
