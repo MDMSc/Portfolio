@@ -56,6 +56,7 @@ export default function Portfolio() {
               <img src={image} alt={title} style={{ objectFit: "cover", height: "13rem" }} />
             </div>
             <h3>{title}</h3>
+            <p><em>Note</em>: For admin credentials (wherever required) kindly check the README.md file in github repositories.</p>
             <h5><small className="text-light">Tech stack used: </small>
               {
                 skills.map((s, index) => {

@@ -31,6 +31,14 @@
     margin-bottom: 2rem;
 }
 
+.portfolio__item p{
+    font-size: 0.8rem;
+}
+
+.portfolio__item p em{
+    text-decoration: underline;
+}
+
 .portfolio__item-actions{
     display: flex;
     gap: 1rem;
